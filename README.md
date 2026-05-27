@@ -5,7 +5,7 @@ filtered by a time interval in the first column.
 
 ## NIRS
 
-Example usage:
+#### Example usage
 
 ```
 export_data_to_csv(
@@ -29,8 +29,13 @@ export_data_to_csv(
 
 ## Spiro
 
+Spiro saves the data as a _Strict Open XML Spreadsheet (*.xlsx)_, but the file needs to be a _Excel Workbook (*.xlsx)_! 
+
+Open the file in Excel and _Save as_ and select _Excel Workbook (*.xlsx)_
+
+#### Example usage
+
 ```
-Example usage:
 export_data_to_csv(
     input_file="data.xlsx",
     output_file="output.csv",
